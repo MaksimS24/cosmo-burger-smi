@@ -1,0 +1,18 @@
+.main-burIng {
+    margin: auto;
+    max-width: 600px;
+    font-family: "Jet Brains Mono", Arial, sans-serif;
+    display: grid;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.ul-burIng {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.li-burIng {
+}

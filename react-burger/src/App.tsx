@@ -1,20 +1,19 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 //components
 import AppHeader from "./components/app-header/app-header";
-import BurgerIngredients from "./components/burger-ingredients/burger-ingredients";
+import MainPage from "./components/pages/main-page";
 
 function App() {
-  return (
-      <div>
-        <AppHeader/>
-        <main>
-          <BurgerIngredients/>
-        </main>
-      </div>
-  );
+    return (
+        <div>
+            <AppHeader/>
+            <main>
+                <MainPage/>
+            </main>
+        </div>
+    );
 }
 
 export default App;

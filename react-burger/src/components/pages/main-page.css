@@ -1,0 +1,13 @@
+.main-page {
+    margin: auto;
+    max-width: 1980px;
+}
+
+.ul-mainPage {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.li-mainPage {
+}

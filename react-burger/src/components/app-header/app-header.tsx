@@ -1,41 +1,45 @@
+import * as React from 'react';
 import './app-header.css';
 import {Logo, BurgerIcon, ListIcon, ProfileIcon} from '@ya.praktikum/react-developer-burger-ui-components';
 
 const AppHeader = () => {
     return (
-        <header>
-            <nav className='p-16'>
-        <ul className='m-0 p-0'>
-        <li>
-            <BurgerIcon type='primary'/>
-        <span className='p-1'>
-        Конструктор
-        </span>
-        </li>
+        <header className={`pr-5 pl-5`}>
+            <nav>
+                <ul className={`ul-header`}>
+                    {/*Конструктор*/}
+                    <li className={`li-header`}>
+                        <span className={`span-header`}>
+                            <BurgerIcon type='primary'/>
+                            <p className={`ml-2`}>Конструктор</p>
+                        </span>
+                    </li>
 
-        <li>
-        <ListIcon type='primary'/>
-        <span className='p-1'>
-            Лента закзаов
-    </span>
-    </li>
+                    {/*Лента заказов*/}
+                    <li className={`li-header ml-4`}>
+                        <span className={`span-header`}>
+                            <ListIcon type='primary'/>
+                        <p className={`ml-2`}>Лента закзаов</p>
+                        </span>
+                    </li>
+                </ul>
 
-    <li>
-    <Logo/>
-    </li>
+                {/*Лого*/}
+                <object className={`logo`}>
+                    <Logo/>
+                </object>
 
-    <li>
-    <ProfileIcon type='primary'/>
-    <span className='p-1'>
-        Личный кабинет
-    </span>
-    </li>
-    </ul>
+                {/*Личный кабинет*/}
+                <object className={`lk`}>
+                    <span className={`span-header`}>
+                    <ProfileIcon type='primary'/>
+                    <p className={`ml-2`}>Личный кабинет</p>
+                    </span>
+                </object>
+            </nav>
 
-    </nav>
-
-    </header>
-);
+        </header>
+    );
 }
 
 export default AppHeader;

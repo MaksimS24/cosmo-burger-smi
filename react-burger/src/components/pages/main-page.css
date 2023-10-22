@@ -1,13 +1,16 @@
 .main-page {
     margin: auto;
-    max-width: 1980px;
+    max-width: 1280px;
 }
 
 .ul-mainPage {
+    padding-inline-start: 0px;
     list-style-type: none;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .li-mainPage {
+    width: 600px;
+    height: 912px;
 }

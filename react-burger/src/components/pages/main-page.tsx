@@ -12,8 +12,6 @@ const MainPage = () => {
                 <li className={`li-mainPage`}><BurgerIngredients/></li>
                 <li className={`li-mainPage`}><BurgerConstructor/></li>
             </ul>
-
-
         </main>
     );
 }

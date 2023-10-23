@@ -10,12 +10,3 @@
 .h1-burIng{
     font-weight: 700;
 }
-.ul-burIng {
-    list-style-type: none;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-}
-
-.li-burIng {
-}

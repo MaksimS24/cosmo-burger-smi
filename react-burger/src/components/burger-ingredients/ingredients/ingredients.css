@@ -1,0 +1,29 @@
+.main-ingredient {
+    max-width: 600px;
+}
+
+.ingredients {
+    list-style-type: none;
+    display: contents;
+    height: 120px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.ul-braed {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.ul-sauce {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.ul-filling {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}

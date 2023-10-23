@@ -1,12 +1,13 @@
 import * as React from 'react';
 import './burger-constructor.css';
+import '@ya.praktikum/react-developer-burger-ui-components/dist/ui/constructor-element.css';
 import {ConstructorElement, DragIcon, Button} from '@ya.praktikum/react-developer-burger-ui-components';
 
 const BurgerConstructor = () => {
     return (
         <>
             <main className={`main-burgCons p-4`}>
-                <div style={{display: 'flex', justifyContent: 'end', flexDirection: 'column', gap: '10px'}}>
+                <div style={{display: 'flex', alignItems: 'flex-end', flexDirection: 'column', gap: '10px'}}>
                     <ConstructorElement
                         type="top"
                         isLocked={true}
@@ -30,10 +31,10 @@ const BurgerConstructor = () => {
                         price={200}
                         thumbnail={'img'}
                     />
+                    <Button htmlType="button" type="primary" size="medium">
+                        Нажми на меня
+                    </Button>
                 </div>
-                <Button htmlType="button" type="primary" size="medium">
-                    Нажми на меня
-                </Button>
             </main>
 
         </>

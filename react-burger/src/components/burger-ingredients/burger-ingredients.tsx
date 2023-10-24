@@ -5,7 +5,7 @@ import Ingredients from "./ingredients/ingredients";
 
 const BurgerIngredients = () => {
 
-    const [current, setCurrent] = React.useState(['bread']);
+    const [current, setCurrent] = React.useState("bread");
     return (
         <main className={`main-burIng`}>
 

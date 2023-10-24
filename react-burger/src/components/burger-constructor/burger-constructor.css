@@ -1,4 +1,4 @@
-.main-burgCons{
+.main-burgCons {
     max-width: 600px;
     margin-top: 80px;
 }
@@ -7,5 +7,18 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.check {
+    display: flex;
+    align-items: center;
+}
+
+.check p {
+    margin-right: 8px;
+}
+
+.check button {
+    margin-left: 40px;
 }
 

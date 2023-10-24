@@ -1,9 +1,10 @@
 import * as React from 'react';
 import './burger-constructor.css';
 import '@ya.praktikum/react-developer-burger-ui-components/dist/ui/constructor-element.css';
-import {ConstructorElement, DragIcon, Button} from '@ya.praktikum/react-developer-burger-ui-components';
+import {ConstructorElement, DragIcon, Button, CurrencyIcon} from '@ya.praktikum/react-developer-burger-ui-components';
 
 const BurgerConstructor = () => {
+
     return (
         <>
             <main className={`main-burgCons p-4`}>
@@ -19,8 +20,8 @@ const BurgerConstructor = () => {
                     <div className={`consElem`}>
                         <DragIcon type='primary'/>
                         <ConstructorElement
-                            text="Краторная булка N-200i (верх)"
-                            price={50}
+                            text="Соус традиционный галактический"
+                            price={30}
                             thumbnail={'img'}
                         />
                     </div>
@@ -31,9 +32,14 @@ const BurgerConstructor = () => {
                         price={200}
                         thumbnail={'img'}
                     />
-                    <Button htmlType="button" type="primary" size="medium">
-                        Нажми на меня
+                    <span className={`check mt-10`}>
+                        <p className={"text text_type_digits-medium"}>430</p>
+                        <CurrencyIcon type="primary"/>
+                        <Button htmlType="button" type="primary" size="medium">
+                        Оформить заказ
                     </Button>
+                    </span>
+
                 </div>
             </main>
 

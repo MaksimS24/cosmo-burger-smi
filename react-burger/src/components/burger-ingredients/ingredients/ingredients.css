@@ -1,29 +1,66 @@
 .main-ingredient {
     max-width: 600px;
+    height: 600px;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
+
 
 .ingredients {
     list-style-type: none;
     display: contents;
-    height: 120px;
-    overflow: scroll;
-    overflow-x: hidden;
 }
 
-.ul-braed {
+.ul-bread {
     list-style: none;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    text-align: center;
+    padding-inline-start: 0px;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+.ul-bread li {
+    flex: 0 0 50%;
+    max-width: 40%;
+    margin: 12px 16px 16px 16px;
 }
 
 .ul-sauce {
     list-style: none;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    flex-wrap: wrap;
+    padding-inline-start: 0px;
+    gap: 24px;
+    margin-top: 12px;
+    margin-bottom: 32px;
+}
+.ul-sauce li {
+    flex: 0 0 50%;
+    max-width: 40%;
+    text-align: center;
+    margin: 12px 16px 16px 16px;
 }
 
 .ul-filling {
     list-style: none;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding-inline-start: 0px;
+    gap: 24px;
+    text-align: center;
+    margin-top: 12px;
+}
+.ul-filling li {
+    flex: 0 0 50%;
+    max-width: 40%;
+    text-align: center;
+    margin: 12px 16px 16px 16px;
+}
+
+.price {
+    display: flex;
+    justify-content: center;
 }

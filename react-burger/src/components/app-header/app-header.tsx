@@ -16,7 +16,7 @@ const AppHeader = () => {
                     </li>
 
                     {/*Лента заказов*/}
-                    <li className={`li-header ml-4`}>
+                    <li className={`li-header ml-6`}>
                         <span className={`span-header`}>
                             <ListIcon type='primary'/>
                         <p className={`ml-2`}>Лента закзаов</p>

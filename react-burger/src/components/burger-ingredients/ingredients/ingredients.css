@@ -1,10 +1,7 @@
 .main-ingredient {
-    max-width: 600px;
-    height: 600px;
     overflow-y: auto;
-    overflow-x: hidden;
+    max-height: 500px;
 }
-
 
 .ingredients {
     list-style-type: none;

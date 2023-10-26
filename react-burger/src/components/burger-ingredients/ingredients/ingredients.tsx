@@ -4,7 +4,7 @@ import {CurrencyIcon} from '@ya.praktikum/react-developer-burger-ui-components';
 
 const Ingredients = () => {
     return (
-        <div className={`main-ingredient mt-4`}>
+        <div className={`main-ingredient mt-10`}>
             <ul className={`ingredients`}>
 
                 {/*Булки*/}

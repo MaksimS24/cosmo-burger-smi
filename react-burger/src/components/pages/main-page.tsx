@@ -3,14 +3,14 @@ import React from "react";
 import BurgerConstructor from "../burger-constructor/burger-constructor";
 import BurgerIngredients from "../burger-ingredients/burger-ingredients";
 
-import './main-page.css';
+import styles from './main-page.module.css';
 
 const MainPage = () => {
     return (
-        <main className='main-page'>
-            <ul className={`ul-mainPage`}>
-                <li className={`li-mainPage`}><BurgerIngredients/></li>
-                <li className={`li-mainPage`}><BurgerConstructor/></li>
+        <main className={styles.mainPage}>
+            <ul className={styles.ulMainPage}>
+                <li className={styles.liMainPage}><BurgerIngredients/></li>
+                <li className={styles.liMainPage}><BurgerConstructor/></li>
             </ul>
         </main>
     );

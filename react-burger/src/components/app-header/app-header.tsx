@@ -1,37 +1,37 @@
 import * as React from 'react';
-import './app-header.css';
+import styles from './app-header.module.css';
 import {Logo, BurgerIcon, ListIcon, ProfileIcon} from '@ya.praktikum/react-developer-burger-ui-components';
 
 const AppHeader = () => {
     return (
-        <header className={`pr-5 pl-5`}>
+        <header>
             <nav>
-                <ul className={`ul-header`}>
+                <ul className={styles.ulHeader}>
                     {/*Конструктор*/}
-                    <li className={`li-header`}>
-                        <span className={`span-header`}>
+                    <li className={styles.liHeader}>
+                        <span className={styles.spanHeader}>
                             <BurgerIcon type='primary'/>
                             <p className={`ml-2`}>Конструктор</p>
                         </span>
                     </li>
 
                     {/*Лента заказов*/}
-                    <li className={`li-header ml-6`}>
-                        <span className={`span-header`}>
+                    <li className={styles.liHeader}>
+                        <span className={styles.spanHeader}>
                             <ListIcon type='primary'/>
-                        <p className={`ml-2`}>Лента закзаов</p>
+                        <p className={`ml-2`}>Лента заказов</p>
                         </span>
                     </li>
                 </ul>
 
                 {/*Лого*/}
-                <object className={`logo`}>
+                <object className={styles.logo}>
                     <Logo/>
                 </object>
 
                 {/*Личный кабинет*/}
-                <object className={`lk`}>
-                    <span className={`span-header`}>
+                <object className={styles.lk}>
+                    <span className={styles.spanHeader}>
                     <ProfileIcon type='primary'/>
                     <p className={`ml-2`}>Личный кабинет</p>
                     </span>

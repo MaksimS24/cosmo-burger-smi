@@ -1,25 +1,25 @@
 import React from "react";
-import './ingredients.css';
+import styles from './ingredients.module.css';
 import {CurrencyIcon} from '@ya.praktikum/react-developer-burger-ui-components';
 
 const Ingredients = () => {
     return (
-        <div className={`main-ingredient mt-10`}>
-            <ul className={`ingredients`}>
+        <div className={styles.mainIngredient}>
+            <ul className={styles.ingredients}>
 
                 {/*Булки*/}
-                <li id={`bread`}>
+                <li id={styles.bread}>
                     <p className="text text_type_main-medium">Булки</p>
-                    <ul className={`ul-bread`}>
+                    <ul className={styles.ulBread}>
                         <li>
-                            <span className={`price`}>
+                            <span className={styles.price}>
                             <p className={`text text_type_digits-default mr-2`}>20</p>
                                 <CurrencyIcon type="primary"/>
                             </span>
                             <p className="text text_type_main-small">Краторная булка N-200i</p>
                         </li>
                         <li>
-                            <span className={`price`}>
+                            <span className={styles.price}>
                             <p className={`text text_type_digits-default mr-2`}>20</p>
                                 <CurrencyIcon type="primary"/>
                             </span>
@@ -29,32 +29,32 @@ const Ingredients = () => {
                 </li>
 
                 {/*Соусы*/}
-                <li id={`sauce`}>
+                <li id={styles.sauce}>
                     <p className="text text_type_main-medium">Соусы</p>
-                    <ul className={`ul-sauce`}>
+                    <ul className={styles.ulSauce}>
                         <li>
-                            <span className={`price`}>
+                            <span className={styles.price}>
                             <p className={`text text_type_digits-default mr-2`}>30</p>
                                 <CurrencyIcon type="primary"/>
                             </span>
                             <p className="text text_type_main-small">Соус Spicy-X</p>
                         </li>
                         <li>
-                            <span className={`price`}>
+                            <span className={styles.price}>
                             <p className={`text text_type_digits-default mr-2`}>30</p>
                                 <CurrencyIcon type="primary"/>
                             </span>
                             <p className="text text_type_main-small">Соус фирменный Space Sauce</p>
                         </li>
                         <li>
-                            <span className={`price`}>
+                            <span className={styles.price}>
                             <p className={`text text_type_digits-default mr-2`}>30</p>
                                 <CurrencyIcon type="primary"/>
                             </span>
                             <p className="text text_type_main-small">Соус традиционный галактический</p>
                         </li>
                         <li>
-                            <span className={`price`}>
+                            <span className={styles.price}>
                             <p className={`text text_type_digits-default mr-2`}>30</p>
                                 <CurrencyIcon type="primary"/>
                             </span>
@@ -64,32 +64,32 @@ const Ingredients = () => {
                 </li>
 
                 {/*Начинки*/}
-                <li id={`filling`}>
+                <li id={styles.filling}>
                     <p className="text text_type_main-medium">Начинки</p>
-                    <ul className={`ul-filling`}>
+                    <ul className={styles.ulFilling}>
                         <li>
-                            <span className={`price`}>
+                            <span className={styles.price}>
                             <p className={`text text_type_digits-default mr-2`}>300</p>
                                 <CurrencyIcon type="primary"/>
                             </span>
                             <p className="text text_type_main-small">Филе Люминесцентного тетраодонтимформа</p>
                         </li>
                         <li>
-                            <span className={`price`}>
+                            <span className={styles.price}>
                             <p className={`text text_type_digits-default mr-2`}>300</p>
                                 <CurrencyIcon type="primary"/>
                             </span>
                             <p className="text text_type_main-small">Мясобессмертных моллюсков Protostomia</p>
                         </li>
                         <li>
-                            <span className={`price`}>
+                            <span className={styles.price}>
                             <p className={`text text_type_digits-default mr-2`}>300</p>
                                 <CurrencyIcon type="primary"/>
                             </span>
                             <p className="text text_type_main-small">Говяжий метеорит (отбивная)</p>
                         </li>
                         <li>
-                            <span className={`price`}>
+                            <span className={styles.price}>
                             <p className={`text text_type_digits-default mr-2`}>300</p>
                                 <CurrencyIcon type="primary"/>
                             </span>
@@ -97,35 +97,35 @@ const Ingredients = () => {
                         </li>
 
                         <li>
-                            <span className={`price`}>
+                            <span className={styles.price}>
                             <p className={`text text_type_digits-default mr-2`}>80</p>
                                 <CurrencyIcon type="primary"/>
                             </span>
                             <p className="text text_type_main-small">Плоды фалленианского дерева</p>
                         </li>
                         <li>
-                            <span className={`price`}>
+                            <span className={styles.price}>
                             <p className={`text text_type_digits-default mr-2`}>80</p>
                                 <CurrencyIcon type="primary"/>
                             </span>
                             <p className="text text_type_main-small">Кристалы марсианских альфа-сахаридов</p>
                         </li>
                         <li>
-                            <span className={`price`}>
+                            <span className={styles.price}>
                             <p className={`text text_type_digits-default mr-2`}>80</p>
                                 <CurrencyIcon type="primary"/>
                             </span>
                             <p className="text text_type_main-small">Хрустящие миниральные кольца</p>
                         </li>
                         <li>
-                            <span className={`price`}>
+                            <span className={styles.price}>
                             <p className={`text text_type_digits-default mr-2`}>80</p>
                                 <CurrencyIcon type="primary"/>
                             </span>
                             <p className="text text_type_main-small">Мини-салат Экзо-Плантаго</p>
                         </li>
                         <li>
-                            <span className={`price`}>
+                            <span className={styles.price}>
                             <p className={`text text_type_digits-default mr-2`}>80</p>
                                 <CurrencyIcon type="primary"/>
                             </span>

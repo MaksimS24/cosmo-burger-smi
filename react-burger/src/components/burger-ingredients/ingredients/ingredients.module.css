@@ -1,4 +1,5 @@
-.main-ingredient {
+.mainIngredient {
+    margin-top: 40px;
     overflow-y: auto;
     max-height: 500px;
 }
@@ -8,7 +9,7 @@
     display: contents;
 }
 
-.ul-bread {
+.ulBread {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
@@ -18,13 +19,13 @@
     margin-top: 24px;
     margin-bottom: 32px;
 }
-.ul-bread li {
+.ulBread li {
     flex: 0 0 50%;
     max-width: 40%;
     margin: 12px 16px 16px 16px;
 }
 
-.ul-sauce {
+.ulSauce {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
@@ -33,14 +34,14 @@
     margin-top: 12px;
     margin-bottom: 32px;
 }
-.ul-sauce li {
+.ulSauce li {
     flex: 0 0 50%;
     max-width: 40%;
     text-align: center;
     margin: 12px 16px 16px 16px;
 }
 
-.ul-filling {
+.ulFilling {
     list-style: none;
     list-style: none;
     display: flex;
@@ -50,7 +51,7 @@
     text-align: center;
     margin-top: 12px;
 }
-.ul-filling li {
+.ulFilling li {
     flex: 0 0 50%;
     max-width: 40%;
     text-align: center;

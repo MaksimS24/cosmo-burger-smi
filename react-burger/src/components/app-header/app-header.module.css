@@ -7,11 +7,10 @@ header {
     box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.25);
     font-family: "Jet Brains Mono", Arial, sans-serif;
     font-weight: 400;
-    top: 40;
-    left: 40;
 }
 
 nav {
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,30 +22,64 @@ nav {
     flex: 1;
 }
 
-.ul-header {
+.ulHeader {
     list-style-type: none;
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
 
-.li-header {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+.liHeader {
+    margin-left: 40px;
 }
 
 .logo {
-    text-align: center;
+    position: absolute;
+    display: flex;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .lk {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    margin-right: 40px;
 }
-.span-header {
+
+.spanHeader {
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+@media screen and (max-width: 1010px) {
+    header{
+        font-size: 12px;
+    }
+    .ulHeader {
+        margin-top: 40px;
+    }
+    .logo {
+        width: 200px;
+        top: 30%;
+    }
+    .lk {
+        margin-top: 30px;
+    }
+
+}
+@media screen and (max-width: 450px) {
+    header{
+        font-size: 8px;
+    }
+    .liHeader {
+        margin-left: 5px;
+    }
+    .lk {
+        margin-right: 5px;
+    }
+
+}
+

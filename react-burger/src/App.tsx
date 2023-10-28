@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './App.module.css';
 
 //components
 import AppHeader from "./components/app-header/app-header";

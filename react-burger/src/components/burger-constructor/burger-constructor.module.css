@@ -1,4 +1,4 @@
-.main-burgCons {
+.mainBurgCons {
     max-width: 600px;
     margin-top: 80px;
 }
@@ -10,6 +10,7 @@
 }
 
 .check {
+    margin-top: 40px;
     display: flex;
     align-items: center;
 }

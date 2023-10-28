@@ -1,16 +1,16 @@
-.main-page {
+.mainPage {
     margin: auto;
     max-width: 1280px;
 }
 
-.ul-mainPage {
+.ulMainPage {
     padding-inline-start: 0px;
     list-style-type: none;
     display: flex;
     justify-content: space-evenly;
 }
 
-.li-mainPage {
+.liMainPage {
     width: 600px;
     height: 912px;
 }

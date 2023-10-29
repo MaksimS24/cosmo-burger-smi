@@ -2,17 +2,16 @@ import React from "react";
 import styles from './burger-ingredients.module.css';
 import {Tab} from '@ya.praktikum/react-developer-burger-ui-components/dist/ui/tab';
 import Ingredients from "./ingredients/ingredients";
-
 const BurgerIngredients = () => {
 
-    const [current, setCurrent] = React.useState("bread");
+    const [current, setCurrent] = React.useState('string');
 
     return (
         <main className={styles.mainBurIng}>
 
             <h1 className={styles.h1BurIng}>Соберите бургер</h1>
 
-            <div style={{ display: 'flex' }}>
+            <div style={{display: 'flex'}}>
                 <Tab value="bread" active={current === 'bread'} onClick={setCurrent}>
                     Булки
                 </Tab>
@@ -23,7 +22,10 @@ const BurgerIngredients = () => {
                     Начинки
                 </Tab>
             </div>
-            <Ingredients/>
+
+            <div>
+                <Ingredients/>
+            </div>
         </main>
     );
 }

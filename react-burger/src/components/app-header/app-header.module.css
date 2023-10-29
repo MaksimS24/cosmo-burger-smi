@@ -54,7 +54,7 @@ nav {
     justify-content: center;
 }
 
-@media screen and (max-width: 1010px) {
+@media screen and (max-width: 1150px) {
     header{
         font-size: 12px;
     }
@@ -62,7 +62,7 @@ nav {
         margin-top: 40px;
     }
     .logo {
-        width: 200px;
+        width: 250px;
         top: 30%;
     }
     .lk {
@@ -70,9 +70,12 @@ nav {
     }
 
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 520px) {
     header{
         font-size: 8px;
+    }
+    nav {
+        height: 88px;
     }
     .liHeader {
         margin-left: 5px;

@@ -14,3 +14,14 @@
     width: 600px;
     height: 912px;
 }
+
+@media screen and (max-width: 1150px) {
+    .ulMainPage {
+        display: grid;
+        justify-content: center;
+    }
+    .liMainPage {
+        height: 650px;
+    }
+
+}

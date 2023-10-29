@@ -1,10 +1,38 @@
-import React from "react";
+import React, {useEffect, useState} from "react";
 import styles from './ingredients.module.css';
 import {CurrencyIcon} from '@ya.praktikum/react-developer-burger-ui-components';
 
 const Ingredients = () => {
+
+    // {data}: { [key: string]: any }
+    // const [ingredients, setIngredients] = useState({
+    //             _id: _id,
+    //             name: name;
+    //             type: string;
+    //             proteins: number;
+    //             fat: number;
+    //             carbohydrates: number;
+    //             calories: number;
+    //             price: number;
+    //             image: string;
+    //             image_mobile: string;
+    //             image_large: string;
+    //             __v: number;
+    //         });
+    //
+    // const onChange = e => {
+    //     if (e.target.name === 'name') {
+    //         setState({ ...state, name: e.target.checked });
+    //     } else {
+    //         setState({ ...state, [e.target.name]: e.target.value });
+    //     }
+    // };
+
     return (
         <div className={styles.mainIngredient}>
+
+            {/*<div>{data.price}</div>*/}
+
             <ul className={styles.ingredients}>
 
                 {/*Булки*/}

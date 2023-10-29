@@ -39,7 +39,6 @@ const BurgerConstructor = () => {
                         Оформить заказ
                     </Button>
                     </span>
-
                 </div>
             </main>
 
